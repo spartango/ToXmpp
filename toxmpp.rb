@@ -34,7 +34,7 @@ client.send(Jabber::Presence.new.set_type(:available))
 log.warn "[toXMPP]: Ready"
 
 # Pull from input
-while line = gets
+ARGF.each do |line| 
     # Send message
     m = Jabber::Message::new(targetUser, line).set_type(:chat)
     client.send m
