@@ -3,6 +3,8 @@ ToXMPP
 
 ToXMPP is a simple script that forwards text from STDIN or file(s) to a Google talk user. 
 
+https://github.com/spartango/ToXmpp
+
 Usage
 -----
 
@@ -27,3 +29,8 @@ Related
 ToXMPP uses XMPP4r (http://home.gna.org/xmpp4r/)
 
 ToXMPP works excellently with Malcolm chatrooms (https://github.com/spartango/Malcolm-bot) 
+
+Authors
+-------
+
+Anand Gupta (https://github.com/spartango)
