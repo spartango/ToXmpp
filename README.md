@@ -12,11 +12,11 @@ First, add your google talk username and password to toxmpp.rb (lines 7 & 8)
 
 To install dependencies
 
-> ruby toxmpp.rb <recipient> [files]
+> ruby toxmpp.rb recipient@domain [files]
 
 Will send the contents of the file(s) to the recipient
 
-> tail -f file | ruby toxmpp.rb <recipient> 
+> tail -f file | ruby toxmpp.rb recipient@domain
 
 Will cause toXMPP to get its input from STDIN, continuing to send text line by line.
 
